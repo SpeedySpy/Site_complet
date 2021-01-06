@@ -1,0 +1,39 @@
+li{
+	font-family: 'Times New Roman',serif;
+	Font-size: 20px;
+	list-style-type: none;
+	text-align: left;
+	background-color: #ff6a19;
+	border: none;
+	color: white;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 2rem;
+	}
+	
+.button strong{
+	font-size: 1 rem;
+	}
+	
+	h1{
+	font-family: Times New Roman,sans-serif;
+	Font-size: 1px;
+	color : white ;
+	}
+	
+	h2{
+	font-family: Times New Roman,sans-serif;
+	Font-size: 95px;
+	color : white;
+	}
+	
+	h3{
+	font-family: Times New Roman,sans-serif;
+	Font-size: 1px;
+	color : white;
+	}
+		

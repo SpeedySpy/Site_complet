@@ -1,0 +1,140 @@
+body /*Ceci permet d'afficher l'image sans coupure */
+{
+	margin: 0;
+	padding: 0;
+	background:#34495e;
+
+}
+
+label{
+	color: #FFFFFF;
+	
+	
+}
+
+
+/*Ceci permet d'enlever les petits points au début de chaque sous-lien*/
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+	
+/*Ceci permet d'enlever les petits points au début de chaque sous-lien*/
+nav > li > ul{
+	float: left;
+}	
+
+/*Ceci permet de mettre le menu en horizontal si on ne met pas ce code le menu va s'afficher en vertical*/
+.submenu{
+	display: none;
+}
+
+/*Ceci permet d'enlever la case à cocher et d'organiser le menu*/
+nav input[type=checkbox]{
+	display: none;
+}
+
+/*Ceci permet de changer la couleur du menu déroulant*/
+nav{
+	width: 100%;
+	background-color: #000000;
+}
+
+/*Ceci permet de décaler la position des rubriques*/
+nav > ul > li{
+		float: left;
+		position: relative;
+}
+
+nav > ul::after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}	
+/*Ceci permet de changer la couleur des sous rubriques*/
+nav > ul > li > a{
+	padding: 10px 40px;
+	color: #FFEBCD;
+}
+
+/*Ceci permet de mettre toutes les sous rubriques sur la meme ligne*/
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	z-index: 100000;
+}
+
+.submenu li{
+	border-bottom: 1px solid #000000;
+}
+
+/*Ceci permet de changer la couleur des polices des sous-rubriques*/
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 15px;
+	color:red;
+	widht: 300px;
+}
+
+/*Ceci permet de décaler la position des rubriques*/
+.menu-html:hover{
+	border-top: 5px solid red;
+	background-color: RGBa(300,77,38,0.15);
+}
+/*Ceci est la couleur de la barre du haut des rubriques CV et Lettre de motivation*/
+.menu-css:hover{
+	border-top: 5px solid #0070bb;
+	background-color: RGBa(000,112,192,0.15);
+}
+
+/*Ceci est la couleur de la barre du haut des rubriques Projets, veille et contact*/
+.menu-js:hover{
+	border-top: 5px solid yellow;
+	background-color: RGBa(241,211,79,0.15);
+}
+
+.menu-contact:hover{
+	border-top: 5px solid;
+	background-color: RGBa(220,220,220,0.15);
+}
+
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+/* Ceci est la couleur du sous-rubrique avant de mettre le curseur sur mot en sous rubrique*/
+.menu-html .submenu{
+		background-color: #FFEBCD;
+}
+
+.menu-css .submenu{
+		background-color: #FFEBCD;
+}
+
+.menu-js .submenu{
+		background-color: #FFEBCD;
+}
+
+/* Il s'agit de la couleur de la police des mots et leurs styles qui est dans ce cas 'gras'*/
+.submenu li:hover a{
+	color:red;
+	font-weight: bold;
+}
+
+.menu-html .submenu li:hover{
+	background-color:#FFEBCD;
+}
+
+}
+.menu-js .submenu li:hover{
+	background-color:RGB(200,165,75);
+}
+
+

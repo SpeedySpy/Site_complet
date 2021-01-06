@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- Ci-dessous le titre de notre site avec le fichier CSS attaché-->
+	<title> TP </title>
+	<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="TP.css">
+	</head>
+	
+	<!--Ceci est la couleur de fond pour ma page-->
+	<body style="background-image:url(https://agence.media/wp-content/uploads/2019/08/logo-anim%C3%A9-carr%C3%A9.gif);background-repeat: no-repeat;
+	background-size : 100%;">
+
+	
+	
+	<i><u><h1> Les TP :</h1></u></i><!--Il s'agit du titre de la page qui en italique et souligné -->
+	<p> Tout au long de ces deux années, nous avons fait plusieurs TP avec différentes professeurs. Voici quelques exemples :</p><!-- Ici j'ai écrit un paragraphe en mettant les balises <p> et </p> pour montrer qu'il s'agit bien d'un paragraphe-->
+	
+	<table>
+	
+	<tr>
+		<th>Madame BRODARD  </th>
+		<th>Madame CHINELLI</th>
+		<th>Madame KENGNE </th>
+	</tr>
+	
+	<tr>
+		<td> Pour télécharger le fichier cliquez <a href="TP9 SI4 BIRAVEEN.pdf">ici</a></td>
+		<td> Pour télécharger le fichier cliquez <a href="TP 2 SI2 _ Découverte du simulateur.pdf">ici</a></td>
+		<td>Pour télécharger le fichier cliquez <a href="TP2 SI1 BIRAVEEN(1).pdf">ici</a></td>
+	</tr>	
+	
+	<tr>
+		<td> Pour télécharger le fichier cliquez <a href="TP10 SI3 BIRAVEEN.pdf">ici</a></td>
+		<td> Pour télécharger le fichier cliquez <a href="TP SI2 9_10_19.pdf">ici</a></td>
+		<td>Pour télécharger le fichier cliquez <a href="TP1 SI1 biraveen.pdf">ici</a></td>
+	</tr>
+	
+	<tr>
+		<td> Pour télécharger le fichier cliquez <a href="TP7 SI3 BIRAVEEN.pdf">ici</a></td>
+	</tr>	
+	
+	</table>
+	
+
+	
+	<!--Ci-dessous un lien pour retourner directement sur le menu au lieu de cliquer sur la flèche pour revenir en arrière-->
+
+	<ul>
+	<div class="box">
+	
+	<li><a href="menu déroulant.html"><b>Retour à la page vevererber</b></a></li>
+	</div>
+	
+</ul>
+
+	</body>
+</html>
